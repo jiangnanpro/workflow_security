@@ -3,7 +3,7 @@ name: My Workflow
 on: [push]
 
 jobs:
-  my_job:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
