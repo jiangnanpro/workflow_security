@@ -1,6 +1,6 @@
 name: My Workflow
 
-on: [push pull-request]
+on: [push, pull-request]
 
 jobs:
   deploy:
