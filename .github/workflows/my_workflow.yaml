@@ -6,7 +6,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-	uses: actions/checkout@v3
-      - name: security check
-	uses: wspr-ncsu/github-actions-security-analysis/gwchecker@main
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: security check
+      uses: wspr-ncsu/github-actions-security-analysis/gwchecker@main
