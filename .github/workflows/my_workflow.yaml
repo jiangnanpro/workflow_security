@@ -16,5 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: say goodbye to the audience
-      run: echo "good bye!"
+      run: ech "good bye!"
     
