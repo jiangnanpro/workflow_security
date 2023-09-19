@@ -1,6 +1,11 @@
 name: My Workflow
 
-on: [push, pull_request, workflow_dispatch]
+on: 
+  push: 
+  pull_request:
+  workflow_dispatch:
+  issues:
+    types: [opened]
 
 jobs:
   deploy:
