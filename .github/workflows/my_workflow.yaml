@@ -27,5 +27,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: happy to see you guys again
-      run: echo "happy to see you guys again!"
+      run: eco "happy to see you guys again!"
     
