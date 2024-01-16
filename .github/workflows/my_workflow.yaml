@@ -21,11 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: say goodbye to the audience
-      run: ech "good bye!"
+      run: echo "good bye!"
 
   seeyouagain: 
     runs-on: ubuntu-latest
     steps:
     - name: happy to see you guys again
-      run: ech "happy to see you guys again!"
+      run: echo "happy to see you guys again!"
     
